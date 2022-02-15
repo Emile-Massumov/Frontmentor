@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+  }
+  
+     html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  body {
+    background-color: hsl(0, 100%, 74%);
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 100px ;
+  }
+  header h1, p {
+      color: #fff;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+  }
+  .header-text p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 26px;
+  }
+  .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+  }
+  .content-box {
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px 26px;
+    border-radius: 10px;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+  }
+  form {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    gap:16px;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+
+  button {
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px 26px;
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .button-p {
+    color:  hsl(246, 25%, 77%);
+  
+  }
+  span {
+    color:hsl(0, 100%, 74%);
+  }
+  form input[type="text"] {
+    width: 100%;
+    font-weight: 400;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
