@@ -94,3 +94,33 @@
     resize: vertical;
   }
 
+    @media only screen and (min-width: 768px) {
+      .box-container { 
+    float: right;
+      }
+
+      header {
+        float: left;
+      }
+
+      .form-container {
+        float: right;
+      }
+
+      footer {
+        float: left;
+        
+      }
+      .attribution {
+        text-align: center;
+      }
+
+    }
+  @media only screen and (min-width: 1440px) {
+  
+    header {
+    }
+  
+  
+  }
+
