@@ -95,26 +95,20 @@
   }
 
     @media only screen and (min-width: 768px) {
-      .box-container { 
-    float: right;
-      }
+    
+    .form-container { 
+    justify-content: right;
+    }
 
-      header {
-        float: left;
-      }
+    .box-container {
+      justify-content: right;
+    }
 
-      .form-container {
-        float: right;
-      }
+    .header-content {
+      justify-content: left;
+    }
 
-      footer {
-        float: left;
-        
-      }
-      .attribution {
-        text-align: center;
-      }
-
+    
     }
   @media only screen and (min-width: 1440px) {
   
