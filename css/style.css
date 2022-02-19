@@ -11,24 +11,24 @@
   }
 
   body {
+    background-image: url("../images/back-pic.png");
     background-color: hsl(0, 100%, 74%);
   }
 
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
   }
 
-  .header-content {
+  .content-wraper {
+    padding: 50px 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    padding-top: 100px ;
+    flex-direction: column;
   }
-  header h1, p {
+
+   p {
       color: #fff;
       text-align: center;
       font-family: 'Poppins', sans-serif;
@@ -37,24 +37,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 26px;
+    padding: 20px 0;
   }
   .box-container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 26px;
   }
   .content-box {
     background-color: hsl(248, 32%, 49%);
-    padding: 20px 26px;
+    padding: 20px 10px;
     border-radius: 10px;
   }
   .form-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 26px;
+    padding-top: 26px;
   }
   form {
     background-color: #fff;
@@ -95,25 +93,39 @@
   }
 
     @media only screen and (min-width: 768px) {
+
+      .content-wraper {
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px;
+      }
+      .header-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 36px;
+        text-align: left;
+      }
+
+      .header-text p {
+        text-align: left;
+      }
     
-    .form-container { 
-    justify-content: right;
-    }
+    
+   
 
-    .box-container {
-      justify-content: right;
-    }
-
-    .header-content {
-      justify-content: left;
-    }
+   
 
     
     }
   @media only screen and (min-width: 1440px) {
   
-    header {
-    }
+ 
+
   
   
   }
