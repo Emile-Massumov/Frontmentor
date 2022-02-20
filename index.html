@@ -9,9 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">  
-
   <title>Frontend Mentor | Intro component with sign up form</title>
-  </head>
+</head>
 <body>
 <main>
   <div class="content-wraper">
@@ -26,12 +25,24 @@
   <p>Try it free 7 days then $30/mo. thereafter</p>
   </div>
   <div class="form-container">
-  <form action="">
-    <input type="text" id="fname" placeholder="First Name">
-    <input type="text" id="fname" placeholder="Last Name">
-    <input type="text" id="fname" placeholder=" Email Address">
-    <input type="text" id="fname" placeholder="Password">
-    <button type="button">Claim your free trial</button>
+  <form class="form">
+    <input type="text" id="firstName" placeholder="First Name">
+    <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+    <p class="error-text">First can not be empty</p>
+
+    <input type="text" id="lastName" placeholder="Last Name">
+    <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+    <p class="error-text">Last Name can not be empty</p>
+
+    <input type="text" id="mailAddress" placeholder=" Email Address">
+    <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+    <p class="error-text">Looks like this is not an email</p>
+
+    <input type="text" id="password" placeholder="Password">
+    <img src="./images/icon-error.svg" class="error-icon" alt="error-img">
+    <p class="error-text">Passwort can not be empty</p>
+
+    <button type="submit">Claim your free trial</button>
     <p div class="button-p">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
   </form>
 </section>
@@ -44,5 +55,7 @@
       Coded by <a href="#">ÉMILE</a>.
     </p>
   </footer>
+  <script src="main.js"></script>
+
 </body>
 </html>

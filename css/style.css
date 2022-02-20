@@ -33,6 +33,39 @@
       text-align: center;
       font-family: 'Poppins', sans-serif;
   }
+  .error-text  {
+    color: #222;
+  }
+
+.error-icon,
+.error-text {
+  display: none;
+}
+
+form.error .error-text,
+form.error .error-icon {
+  display: block;
+}
+.form.error input {
+  border: 3px solid hsl(0, 100%, 74%);;
+}
+
+
+  .error-icon {
+    display: block;
+    right: -150px;
+    top:10%;
+    position:absolute;
+  }
+
+  .error-text {
+    font-display: block;
+    font-size: .8rem;
+    text-align: right;
+    font-style: italic;
+    color:hsl(0, 100%, 74%); 
+    font-weight: 500;
+  }
   .header-text p {
     justify-content: center;
     align-items: center;
@@ -91,6 +124,8 @@
     margin-bottom: 16px;
     resize: vertical;
   }
+
+
 
     @media only screen and (min-width: 768px) {
 
